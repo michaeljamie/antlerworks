@@ -18,6 +18,7 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   margin: 0;
