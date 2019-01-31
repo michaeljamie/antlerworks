@@ -18,17 +18,17 @@
       <div>
         <img src="./../assets/whistles.jpg" alt="Logo Text White">
         <h3>Whistles</h3>
-        <p></p>
+        <p>Our hand-carved whistles are the perfect gift for anyone.</p>
       </div>
       <div>
         <img src="./../assets/buckle.jpg" alt="Logo Text White">
         <h3>Buckles</h3>
-        <p></p>
+        <p>Our big game buckles are meticulously carved and hand painted, and worthy of any collector's showcase, yet durable enough to be worn for generations.</p>
       </div>
       <div>
         <img src="./../assets/carvings.jpg" alt="Logo Text White">
         <h3>Carvings</h3>
-        <p></p>
+        <p>Our unique collection of carvings is an ideal</p>
       </div>
     </div>
   </div>
@@ -149,6 +149,11 @@ nav a {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.products p {
+  font-size: 18px;
+  width: 70%;
 }
 
 </style>
