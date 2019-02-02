@@ -18,17 +18,17 @@
       <div>
         <img src="./../assets/whistles.jpg" alt="Logo Text White">
         <h3>Whistles</h3>
-        <p>Our hand-carved whistles are the perfect gift for anyone.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <img src="./../assets/buckle.jpg" alt="Logo Text White">
         <h3>Buckles</h3>
-        <p>Our big game buckles are meticulously carved and hand painted, and worthy of any collector's showcase, yet durable enough to be worn for generations.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <img src="./../assets/carvings.jpg" alt="Logo Text White">
         <h3>Carvings</h3>
-        <p>Our unique collection of carvings is an ideal</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </div>
   </div>
@@ -122,6 +122,7 @@ nav a {
 .intro {
   background-color: linear-gradient(rgba(255, 255, 255, 0.8));
   margin: 0 auto;
+  height: auto;
 }
 
 .intro h2 {
