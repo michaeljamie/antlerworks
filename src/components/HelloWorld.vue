@@ -18,18 +18,30 @@
       <div>
         <img src="./../assets/whistles.jpg" alt="Logo Text White">
         <h3>Whistles</h3>
-        <p>Our hand-carved whistles are the perfect gift for anyone.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <img src="./../assets/buckle.jpg" alt="Logo Text White">
         <h3>Buckles</h3>
-        <p>Our big game buckles are meticulously carved and hand painted, and worthy of any collector's showcase, yet durable enough to be worn for generations.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <img src="./../assets/carvings.jpg" alt="Logo Text White">
         <h3>Carvings</h3>
-        <p>Our unique collection of carvings is an ideal</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
+    </div>
+  </div>
+  <div class='aboutUs'>
+    <div class='bg-video'>
+      <video class='bg-videoContent' autoplay muted loop>
+        <source src="../assets/Forest-Lullaby.mp4">
+        Your browser is not supported!
+      </video>
+    </div>
+    <div class='aboutUsContent'>
+      content
+
     </div>
   </div>
 </div>
@@ -110,6 +122,7 @@ nav a {
 .intro {
   background-color: linear-gradient(rgba(255, 255, 255, 0.8));
   margin: 0 auto;
+  height: auto;
 }
 
 .intro h2 {
@@ -125,6 +138,7 @@ nav a {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 10vh;
 }
 
 .products>div {
@@ -143,17 +157,52 @@ nav a {
 
 
 .products h3 {
-  font-size: 35px;
+  font-size: 50px;
   margin: 5vh 0;
   color: #151b1f;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Cowboy", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 .products p {
-  font-size: 18px;
+  font-size: 23px;
   width: 70%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutUs {
+  min-height: 80vh;
+  position: relative;
+  padding: 15rem 0; 
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -999;
+  opacity: .25;
+  overflow: hidden;
+}
+
+.bg-videoContent {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aboutUsContent {
+  color: black;
+  background: #0a3125;
+  opacity: .4;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  z-index: 3;
 }
 
 </style>
