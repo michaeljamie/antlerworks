@@ -2,13 +2,16 @@
   "name": "antlerworks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/michaeljamie/antlerworks",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
-    "vue": "^2.5.21"
+    "vue": "^2.5.21",
+    "vue-gh-pages": "^1.19.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
