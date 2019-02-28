@@ -128,7 +128,7 @@ nav a {
 .intro h2 {
   margin: 8vh 6vw;
   font-size: 50px;
-  color: #151b1f;
+  color: #34421E;
   font-family: "Cowboy", sans-serif;
   text-align: left;
   letter-spacing: 5px;
@@ -153,13 +153,14 @@ nav a {
   height: 400px;
   border-radius: 100%;
   margin-top: 5vh;
+  border: 3px solid #34421E;
 }
 
 
 .products h3 {
   font-size: 50px;
   margin: 5vh 0;
-  color: #151b1f;
+  color: #34421E;
   font-family: "Cowboy", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -168,6 +169,7 @@ nav a {
 .products p {
   font-size: 23px;
   width: 70%;
+  color: #151516;
   font-family: 'Roboto', sans-serif;
 }
 
