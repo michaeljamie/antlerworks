@@ -16,17 +16,17 @@
     <h2>Family Owned and Operated since 1992</h2>
     <div class='products'>
       <div>
-        <img src="./../assets/whistles.jpg" alt="Logo Text White">
+        <img src="./../assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
         <h3>Whistles</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
-        <img src="./../assets/buckle.jpg" alt="Logo Text White">
+        <img src="./../assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
         <h3>Buckles</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <div>
-        <img src="./../assets/carvings.jpg" alt="Logo Text White">
+        <img src="./../assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
         <h3>Carvings</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
@@ -128,13 +128,13 @@ nav a {
 }
 
 .intro {
-  background-color: linear-gradient(rgba(255, 255, 255, 0.8));
-  margin: 0 auto;
-  height: auto;
+  background: linear-gradient(to bottom, rgba(214, 212, 212, 0.6), rgba(236, 230, 230, 0.3) );
+  height: 100%;
+  width: 100%;
+  padding: 5vw;
 }
 
 .intro h2 {
-  margin: 8vh 6vw;
   font-size: 50px;
   color: #34421E;
   font-family: "Cowboy", sans-serif;
@@ -156,14 +156,15 @@ nav a {
   align-items: center;
 }
 
-.products img {
+.productsImg {
   width: 400px;
   height: 400px;
   border-radius: 100%;
   margin-top: 5vh;
-  border: 3px solid #34421E;
+  border: 6px solid #242e15;
+  box-shadow: 0 0 0 5pt #fff;
+  opacity: .85;
 }
-
 
 .products h3 {
   font-size: 50px;
@@ -207,7 +208,7 @@ nav a {
 .aboutUsContent {
   color: black;
   background: #0a3125;
-  background-color: rgba(10, 49, 37, 0.4);
+  background-color: rgba(4, 59, 16, 0.5);
   /* opacity: .4; */
   height: 100%;
   width: 100%;
@@ -222,8 +223,8 @@ nav a {
 
 .aboutUsCard {
   background: white;
-  height: 500px;
-  min-width: 350px;
+  height: 550px;
+  min-width: 400px;
   border-radius: 3px;
   display: flex;
   align-items: flex-start;
