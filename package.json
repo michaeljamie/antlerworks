@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "vue": "^2.5.21",
-    "vue-gh-pages": "^1.19.0"
+    "vue-gh-pages": "^1.19.0",
+    "vue-strap": "^1.1.40"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",

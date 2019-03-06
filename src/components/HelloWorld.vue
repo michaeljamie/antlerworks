@@ -40,7 +40,15 @@
       </video>
     </div>
     <div class='aboutUsContent'>
-      content
+      <div class='aboutUsCard'>
+        Card 1
+      </div>
+      <div class='aboutUsCard'>
+        Card 2
+      </div>
+      <div class='aboutUsCard'>
+        Card 3
+      </div>
 
     </div>
   </div>
@@ -199,12 +207,29 @@ nav a {
 .aboutUsContent {
   color: black;
   background: #0a3125;
-  opacity: .4;
+  background-color: rgba(10, 49, 37, 0.4);
+  /* opacity: .4; */
   height: 100%;
   width: 100%;
   position: absolute;
   top:0;right:0;bottom:0;left:0;
   z-index: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutUsCard {
+  background: white;
+  height: 500px;
+  min-width: 350px;
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vw;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 </style>
