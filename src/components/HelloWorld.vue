@@ -41,30 +41,45 @@
   <div class='aboutUs'>
     <div class='bg-video'>
       <video class='bg-videoContent' autoplay muted loop>
-        <source src="../assets/Forest-Lullaby.mp4">
+        <source src="../assets/Forest_15_3b_Videvo.mp4">
         Your browser is not supported!
       </video>
     </div>
     <div class='aboutUsContent'>
       <div class='aboutUsCard'>
         <div>
-          <img src="./../assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
-          <h3>Whistles</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class='cardTop'>
+            <img src="./../assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Whistles</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
         </div>
       </div>
       <div class='aboutUsCard'>
         <div>
-          <img src="./../assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
-          <h3>Buckles</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class='cardTop'>
+            <img src="./../assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Buckles</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
         </div>
       </div>
       <div class='aboutUsCard'>
         <div>
-          <img src="./../assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
-          <h3>Carvings</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class='cardTop'>
+            <img src="./../assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Carvings</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
         </div>
       </div>
 
@@ -182,11 +197,10 @@ nav a {
 }
 
 .productsImg {
-  width: 280px;
-  height: 280px;
+  width: 240px;
+  height: 240px;
   border-radius: 100%;
-  margin-top: 0;
-  border: 6px solid #3f5125;
+  border: 6px solid #191919;
   box-shadow: 0 0 0 5pt #fff;
   opacity: .85;
 }
@@ -246,7 +260,7 @@ nav a {
 .prodcard2 {
   width: 50%;
   height: 100%;
-  background: black;
+  background: #191919;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -257,7 +271,7 @@ nav a {
 .prodcard3 {
   width: 50%;
   height: 100%;
-  background: black;
+  background: #191919;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -300,8 +314,7 @@ nav a {
 
 .aboutUsContent {
   color: black;
-  background: #0a3125;
-  background-color: rgba(4, 59, 16, 0.5);
+  background-color: rgba(0, 0, 0, 0.40);
   /* opacity: .4; */
   height: 100%;
   width: 100%;
@@ -316,28 +329,59 @@ nav a {
 
 .aboutUsCard {
   background: white;
-  height: 750px;
-  width: 25vw;
+  height: 700px;
+  width: 20vw;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 2vw;
+  text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.aboutUsCard>div {
+  height: 100%;
+}
+
 .aboutUsCard h3 {
-  font-size: 50px;
-  margin: 3vh 0;
-  color: #34421E;
+  font-size: 40px;
+  margin: 3vh 0 0 0;
+  color: white;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 3px;
 }
 
 .aboutUsCard p {
-  font-size: 22px;
-  width: 100%;
-  color: #151516;
+  font-size: 20px;
+  width: 80%;
+  color: #a0a1a0;
   font-family: 'Roboto', sans-serif;
+}
+
+.prodCardLine {
+  margin: 1vh 0;
+  height: 5px;
+  width: 60%;
+  background: #3f5125;
+  border-radius: 1px;
+}
+
+.cardTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBottom {
+  width: 100%;
+  height: 50%;
+  background: #191919;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
 }
 
 .about {
@@ -350,6 +394,9 @@ nav a {
   background-size: cover;
   background-repeat: none;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 50vh;
   padding: 8vh 0;
 }
@@ -364,7 +411,7 @@ nav a {
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin: 7vh 0;
+  margin: 9vh 0;
 
 }
 
