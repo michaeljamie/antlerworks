@@ -13,37 +13,91 @@
 
   </div>
   <div class='intro'>
-    <h2>Family Owned and Operated since 1992</h2>
     <div class='products'>
       <div>
-        <img src="./../assets/whistles.jpg" alt="Logo Text White">
-        <h3>Whistles</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </div>
-      <div>
-        <img src="./../assets/buckle.jpg" alt="Logo Text White">
-        <h3>Buckles</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </div>
-      <div>
-        <img src="./../assets/carvings.jpg" alt="Logo Text White">
-        <h3>Carvings</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="prodrow">
+          <div class='prodcard1'>
+
+          </div>
+          <div class='prodcard2'>
+            <h4>Family Owned and Operated</h4>
+            <h5>We have proudly owned and operated The Antler Works since 1994</h5>
+            <div class='prodline'></div>
+          </div>
+        </div>
+        <div class="prodrow">
+          <div class='prodcard3'>
+            <h4>100% Handcrafted Products</h4>
+            <h5>All of our products are completely handmade in our shop in beautiful Star Valley</h5>
+            <div class='prodline'></div>
+          </div>
+          <div class='prodcard4'>
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class='aboutUs'>
     <div class='bg-video'>
       <video class='bg-videoContent' autoplay muted loop>
-        <source src="../assets/Forest-Lullaby.mp4">
+        <source src="../assets/Forest_15_3b_Videvo.mp4">
         Your browser is not supported!
       </video>
     </div>
     <div class='aboutUsContent'>
-      content
+      <div class='aboutUsCard'>
+        <div>
+          <div class='cardTop'>
+            <img src="./../assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Whistles</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class='aboutUsCard'>
+        <div>
+          <div class='cardTop'>
+            <img src="./../assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Buckles</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class='aboutUsCard'>
+        <div>
+          <div class='cardTop'>
+            <img src="./../assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
+          </div>
+          <div class='cardBottom'>
+            <h3>Carvings</h3>
+            <div class='prodCardLine'></div>
+            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
+  <div class='about'>
+  </div>
+    <div class='clients'>
+      <h4>Some of our clients include:</h4>
+      <div>
+        <img src="./../assets/logoalamo.png" alt="">
+        <img src="./../assets/logocabelas.png" alt="">
+        <img src="./../assets/logodisney.png" alt="">
+        <img src="./../assets/logocowboys.png" alt="">
+        <img src="./../assets/logosmithsonian.png" alt="">
+        <img src="./../assets/logograndcanyon.png" alt="">
+      </div>
+    </div>
 </div>
 </template>
 
@@ -120,15 +174,15 @@ nav a {
 }
 
 .intro {
-  background-color: linear-gradient(rgba(255, 255, 255, 0.8));
-  margin: 0 auto;
-  height: auto;
+  background: linear-gradient(to bottom, rgba(214, 212, 212, 0.6), rgba(236, 230, 230, 0.3) );
+  height: 100%;
+  width: 100%;
+  padding: 5vw;
 }
 
 .intro h2 {
-  margin: 8vh 6vw;
   font-size: 50px;
-  color: #34421E;
+  color: #3f5125;
   font-family: "Cowboy", sans-serif;
   text-align: left;
   letter-spacing: 5px;
@@ -137,33 +191,38 @@ nav a {
 .products {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 10vh;
-}
-
-.products>div {
-  width: 33%;
-  display: flex;
   flex-direction: column;
+  margin-bottom: 10vh;
   align-items: center;
 }
 
-.products img {
-  width: 400px;
-  height: 400px;
+.productsImg {
+  width: 240px;
+  height: 240px;
   border-radius: 100%;
-  margin-top: 5vh;
-  border: 3px solid #34421E;
+  border: 6px solid #191919;
+  box-shadow: 0 0 0 5pt #fff;
+  opacity: .85;
 }
 
+.products h4 {
+  color: white;
+  font-size: 40px;
+}
 
-.products h3 {
-  font-size: 50px;
-  margin: 5vh 0;
-  color: #34421E;
-  font-family: "Cowboy", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+.products h5 {
+  color: #a0a1a0;
+  font-size: 25px;
+  text-align: left;
+  width: 75%;
+}
+
+.prodline {
+  height: 5px;
+  width: 30%;
+  margin-top: 25px;
+  background: #3f5125;
+  border-radius: 1px;
 }
 
 .products p {
@@ -173,10 +232,67 @@ nav a {
   font-family: 'Roboto', sans-serif;
 }
 
+.products>div {
+  width: 75vw;
+  min-height: 90vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.prodrow {
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  width: 100%;
+}
+
+.prodcard1 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url('./../assets/fieldbkgd.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-repeat: no-repeat;
+}
+
+.prodcard2 {
+  width: 50%;
+  height: 100%;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px;
+}
+
+.prodcard3 {
+  width: 50%;
+  height: 100%;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px;
+}
+
+.prodcard4 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url('./../assets/mtnbkgd.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-repeat: no-repeat;
+}
+
 .aboutUs {
-  min-height: 80vh;
+  min-height: 90vh;
   position: relative;
-  padding: 15rem 0; 
+  padding: 20rem 0; 
 }
 
 .bg-video {
@@ -198,13 +314,110 @@ nav a {
 
 .aboutUsContent {
   color: black;
-  background: #0a3125;
-  opacity: .4;
+  background-color: rgba(0, 0, 0, 0.40);
+  /* opacity: .4; */
   height: 100%;
   width: 100%;
   position: absolute;
   top:0;right:0;bottom:0;left:0;
   z-index: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutUsCard {
+  background: white;
+  height: 700px;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.aboutUsCard>div {
+  height: 100%;
+}
+
+.aboutUsCard h3 {
+  font-size: 40px;
+  margin: 3vh 0 0 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+.aboutUsCard p {
+  font-size: 20px;
+  width: 80%;
+  color: #a0a1a0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.prodCardLine {
+  margin: 1vh 0;
+  height: 5px;
+  width: 60%;
+  background: #3f5125;
+  border-radius: 1px;
+}
+
+.cardTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBottom {
+  width: 100%;
+  height: 50%;
+  background: #191919;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.about {
+  min-height: 80vh;
+}
+
+.clients {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url('./../assets/clientsbkgd.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 8vh 0;
+}
+
+.clients h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.clients div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin: 9vh 0;
+
+}
+
+.clients img {
+  max-height: 12vh;
+  margin: 0 18px;
 }
 
 </style>
