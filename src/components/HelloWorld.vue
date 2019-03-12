@@ -86,9 +86,12 @@
     </div>
   </div>
   <div class='about'>
-    <h2>About Us</h2>
-    <h5>Our family has proudly run The Antler Works since 1994</h5>
-    <div class='aboutLine'></div>
+    <div>
+      <h2>About Us</h2>
+      <div class='aboutLine'></div>
+      <h5>Our family has proudly run The Antler Works since 1994.  We stand by the quality of our products and guarantee your complete satisfaction.</h5>
+      <button>Contact Us</button>
+    </div>
     <img src="./../assets/family.png.jpeg" alt="" class='familypic'>
   </div>
     <div class='clients'>
@@ -395,32 +398,58 @@ nav a {
   height: auto;
   padding: 8vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  background: #191919;
+}
+
+.about>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  transform: translateX(370px);
+  border-radius: 3px;
+  padding: 5vh 1vh;
+  min-width: 30vw;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .about h2 {
   font-size: 45px;
-  color: #191919;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
 .about h5 {
   font-size: 23px;
-  color: #a0a1a0;
+  color: #191919;
+  width: 80%;
+}
+
+.about button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background: #3f5125;
+  padding: 10px 60px;
+  font-size: 25px;
+  transform: translateY(7vh);
 }
 
 .aboutLine {
   margin: 1vh 0 5vh 0;
   height: 5px;
-  width: 20%;
+  width: 25%;
   background: #3f5125;
   border-radius: 1px;
+  margin: 30px 0 40px 0;
 }
 
 .familypic {
   max-height: 50vh;
+  margin-left: 12vw;
 }
 
 .clients {
