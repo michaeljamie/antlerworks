@@ -86,6 +86,10 @@
     </div>
   </div>
   <div class='about'>
+    <h2>About Us</h2>
+    <h5>Our family has proudly run The Antler Works since 1994</h5>
+    <div class='aboutLine'></div>
+    <img src="./../assets/family.png.jpeg" alt="" class='familypic'>
   </div>
     <div class='clients'>
       <h4>Some of our clients include:</h4>
@@ -97,6 +101,9 @@
         <img src="./../assets/logosmithsonian.png" alt="">
         <img src="./../assets/logograndcanyon.png" alt="">
       </div>
+    </div>
+    <div class='contact'>
+
     </div>
 </div>
 </template>
@@ -385,7 +392,35 @@ nav a {
 }
 
 .about {
-  min-height: 80vh;
+  height: auto;
+  padding: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about h2 {
+  font-size: 45px;
+  color: #191919;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about h5 {
+  font-size: 23px;
+  color: #a0a1a0;
+}
+
+.aboutLine {
+  margin: 1vh 0 5vh 0;
+  height: 5px;
+  width: 20%;
+  background: #3f5125;
+  border-radius: 1px;
+}
+
+.familypic {
+  max-height: 50vh;
 }
 
 .clients {
@@ -418,6 +453,12 @@ nav a {
 .clients img {
   max-height: 12vh;
   margin: 0 18px;
+}
+
+.contact {
+  min-height: 35vh;
+  background: #191919;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #191919 ) */
 }
 
 </style>
