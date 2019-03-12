@@ -396,12 +396,17 @@ nav a {
 
 .about {
   height: auto;
-  padding: 8vh;
+  padding: 12vh 8vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background: #191919;
+  /* background: #191919; */
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ), url('./../assets/treeabout.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-repeat: no-repeat;
 }
 
 .about>div {
@@ -409,7 +414,6 @@ nav a {
   flex-direction: column;
   align-items: center;
   background: rgba(255, 255, 255, 0.6);
-  transform: translateX(370px);
   border-radius: 3px;
   padding: 5vh 1vh;
   min-width: 30vw;
@@ -433,9 +437,9 @@ nav a {
   border: none;
   border-radius: 3px;
   background: #3f5125;
-  padding: 10px 60px;
+  padding: 40px 60px;
   font-size: 25px;
-  transform: translateY(7vh);
+  transform: translateY(10vh);
 }
 
 .aboutLine {
@@ -449,7 +453,7 @@ nav a {
 
 .familypic {
   max-height: 50vh;
-  margin-left: 12vw;
+  margin-left: 8vw;
 }
 
 .clients {
