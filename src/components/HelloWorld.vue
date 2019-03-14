@@ -8,7 +8,7 @@
       <a href="">Contact Us</a>
     </nav>
     <div class='headerText'>
-      <img src="./../assets/textlogowhite.png" alt="Logo Text White">
+      <img src="assets/textlogowhite.png" alt="Logo Text White">
     </div>
 
   </div>
@@ -41,7 +41,7 @@
   <div class='aboutUs'>
     <div class='bg-video'>
       <video class='bg-videoContent' autoplay muted loop>
-        <source src="../assets/Forest_15_3b_Videvo.mp4">
+        <source src="assets/Forest_15_3b_Videvo.mp4">
         Your browser is not supported!
       </video>
     </div>
@@ -49,7 +49,7 @@
       <div class='aboutUsCard'>
         <div>
           <div class='cardTop'>
-            <img src="./../assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
+            <img src="assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
           </div>
           <div class='cardBottom'>
             <h3>Whistles</h3>
@@ -61,7 +61,7 @@
       <div class='aboutUsCard'>
         <div>
           <div class='cardTop'>
-            <img src="./../assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
+            <img src="assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
           </div>
           <div class='cardBottom'>
             <h3>Buckles</h3>
@@ -73,7 +73,7 @@
       <div class='aboutUsCard'>
         <div>
           <div class='cardTop'>
-            <img src="./../assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
+            <img src="assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
           </div>
           <div class='cardBottom'>
             <h3>Carvings</h3>
@@ -92,21 +92,46 @@
       <h5>Our family has proudly run The Antler Works since 1994.  We stand by the quality of our products and guarantee your complete satisfaction.</h5>
       <button>Contact Us</button>
     </div>
-    <img src="./../assets/family.png.jpeg" alt="" class='familypic'>
+    <img src="assets/family.png.jpeg" alt="" class='familypic'>
   </div>
     <div class='clients'>
       <h4>Some of our clients include:</h4>
       <div>
-        <img src="./../assets/logoalamo.png" alt="">
-        <img src="./../assets/logocabelas.png" alt="">
-        <img src="./../assets/logodisney.png" alt="">
-        <img src="./../assets/logocowboys.png" alt="">
-        <img src="./../assets/logosmithsonian.png" alt="">
-        <img src="./../assets/logograndcanyon.png" alt="">
+        <img src="assets/logoalamo.png" alt="">
+        <img src="assets/logocabelas.png" alt="">
+        <img src="assets/logodisney.png" alt="">
+        <img src="assets/logocowboys.png" alt="">
+        <img src="assets/logosmithsonian.png" alt="">
+        <img src="assets/logograndcanyon.png" alt="">
       </div>
     </div>
     <div class='contact'>
-
+      <div class='contact-tabs'>
+        <a>
+          <img src="assets/phone.png" alt="">
+          <h3>Phone</h3>
+          <p>(307) 886-3236</p>
+        </a>
+        <div class='contact-divider'></div>
+        <a>
+          <img src="assets/address.png" alt="">
+          <h3>Address</h3>
+          <p>4645 Bittercreek Rd</p>
+          <p>Afton, WY 83110</p>
+        </a>
+        <div class='contact-divider'></div>
+        <a>
+          <img src="assets/email.png" alt="">
+          <h3>Email</h3>
+          <p>antlerworks@silverstar.com</p>
+        </a>
+      </div>
+      <div class='contact-bottom'>
+        <a href=""><img src="assets/social-fb.png" alt=""></a>
+        <a href=""><img src="assets/social-li.png" alt=""></a>
+        <a href=""><img src="assets/social-tw.png" alt=""></a>
+      </div>
+      <p>Copyright © 2019</p>
     </div>
 </div>
 </template>
@@ -221,6 +246,7 @@ nav a {
 }
 
 .products h5 {
+  margin-top: 8px;
   color: #a0a1a0;
   font-size: 25px;
   text-align: left;
@@ -346,6 +372,7 @@ nav a {
   justify-content: center;
   text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 3px;
 }
 
 .aboutUsCard>div {
@@ -402,11 +429,13 @@ nav a {
   align-items: center;
   justify-content: flex-start;
   /* background: #191919; */
-  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ), url('./../assets/treeabout.jpg');
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9) ), url('./../assets/treeabout.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: none;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* border-bottom: 7px white solid;
+  border-top: 7px white solid; */
 }
 
 .about>div {
@@ -440,6 +469,12 @@ nav a {
   padding: 40px 60px;
   font-size: 25px;
   transform: translateY(10vh);
+    transition: all .25s ease-in-out;
+}
+
+.about button:hover {
+  filter: brightness(120%);
+    transform: translateY(9vh);
 }
 
 .aboutLine {
@@ -457,7 +492,7 @@ nav a {
 }
 
 .clients {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url('./../assets/clientsbkgd.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3) ), url('./../assets/clientsbkgd.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: none;
@@ -491,7 +526,70 @@ nav a {
 .contact {
   min-height: 35vh;
   background: #191919;
-  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #191919 ) */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 8vh 0 5vh 0;
+}
+
+.contact-tabs>a {
+  height: 20vh;
+  width: 20vw;
+  border-top: 3px solid #3f5125;
+  cursor: pointer;
+}
+
+.contact-tabs>a:hover img {
+  transform: translateY(-3px);
+  filter: brightness(120%);
+}
+
+.contact-divider {
+  width: 1px;
+  height: 20vh;
+  background: #f1f2f3;
+  margin: 0 3vw;
+  border-radius: 1px;
+}
+
+.contact img {
+  max-height: 7vh;
+  margin: 35px 20px;
+  transition: all .25s ease-in-out;
+}
+.contact p {
+  font-size: 18px;
+  margin-bottom: 3vh;
+}
+
+.contact-tabs h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-tabs p {
+  font-size: 20px;
+  margin: 0;
+  color: #f1f2f3;
+}
+
+.contact-bottom a img {
+  max-height: 6vh;
+}
+
+.contact-bottom a:hover img {
+  transform: translateY(-3px);
+  filter: brightness(120%);
 }
 
 </style>
