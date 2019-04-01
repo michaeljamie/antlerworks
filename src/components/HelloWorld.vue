@@ -126,11 +126,11 @@
           <p>antlerworks@silverstar.com</p>
         </a>
       </div>
-      <div class='contact-bottom'>
+      <!-- <div class='contact-bottom'>
         <a href=""><img src="assets/social-fb.png" alt=""></a>
         <a href=""><img src="assets/social-li.png" alt=""></a>
         <a href=""><img src="assets/social-tw.png" alt=""></a>
-      </div>
+      </div> -->
       <p>Copyright © 2019</p>
     </div>
 </div>
@@ -557,7 +557,7 @@ nav a {
   width: 1px;
   height: 20vh;
   background: #f1f2f3;
-  margin: 0 3vw;
+  margin: 0 3vw 1vw 3vw;
   border-radius: 1px;
 }
 
