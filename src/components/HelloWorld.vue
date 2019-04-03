@@ -487,8 +487,12 @@ nav a {
 }
 
 .familypic {
-  max-height: 50vh;
+  max-width: 50vw;
   margin-left: 8vw;
+  border-bottom: 5px solid rgba(63, 81, 37, 0.9);
+  border-right: 5px solid rgba(63, 81, 37, 0.6);
+  border-left: 5px solid rgba(63, 81, 37, 0.7);
+  border-top: 5px solid rgba(63, 81, 37, 0.5);
 }
 
 .clients {
