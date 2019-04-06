@@ -21,14 +21,14 @@
           </div>
           <div class='prodcard2'>
             <h4>Family Owned and Operated</h4>
-            <h5>We have proudly owned and operated The Antler Works since 1994</h5>
+            <h5>We have proudly owned and operated The Antler Works since 1992</h5>
             <div class='prodline'></div>
           </div>
         </div>
         <div class="prodrow">
           <div class='prodcard3'>
             <h4>100% Handcrafted Products</h4>
-            <h5>All of our products are completely handmade in our shop in beautiful Star Valley</h5>
+            <h5>All of our products are completely handmade in beautiful Star Valley, Wyoming</h5>
             <div class='prodline'></div>
           </div>
           <div class='prodcard4'>
@@ -46,50 +46,53 @@
       </video>
     </div>
     <div class='aboutUsContent'>
-      <div class='aboutUsCard'>
-        <div>
-          <div class='cardTop'>
-            <img src="assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
-          </div>
-          <div class='cardBottom'>
-            <h3>Whistles</h3>
-            <div class='prodCardLine'></div>
-            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-        </div>
-      </div>
-      <div class='aboutUsCard'>
-        <div>
-          <div class='cardTop'>
-            <img src="assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
-          </div>
-          <div class='cardBottom'>
-            <h3>Buckles</h3>
-            <div class='prodCardLine'></div>
-            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div>
+        <div class='aboutUsCard aboutUsCardWhistles'>
+          <div>
+            <div class='cardTop'>
+              <img src="assets/whistles.jpg" alt="Logo Text White" class='productsImg'>
+            </div>
+            <div class='cardBottom'>
+              <h3>Whistles</h3>
+              <div class='prodCardLine'></div>
+              <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class='aboutUsCard'>
-        <div>
-          <div class='cardTop'>
-            <img src="assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
+      <div>
+        <div class='aboutUsCard'>
+          <div>
+            <div class='cardTop'>
+              <img src="assets/buckle.jpg" alt="Logo Text White" class='productsImg'>
+            </div>
+            <div class='cardBottom'>
+              <h3>Buckles</h3>
+              <div class='prodCardLine'></div>
+              <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
           </div>
-          <div class='cardBottom'>
-            <h3>Carvings</h3>
-            <div class='prodCardLine'></div>
-            <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class='aboutUsCard'>
+          <div>
+            <div class='cardTop'>
+              <img src="assets/carvings.jpg" alt="Logo Text White" class='productsImg'>
+            </div>
+            <div class='cardBottom'>
+              <h3>Carvings</h3>
+              <div class='prodCardLine'></div>
+              <p>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <div class='about'>
     <div>
       <h2>About Us</h2>
       <div class='aboutLine'></div>
-      <h5>Our family has proudly run The Antler Works since 1994.  We stand by the quality of our products and guarantee your complete satisfaction.</h5>
+      <h5>The Hyde Family began The Antler Works in 1992 and three generations now proudly continue to carry it on.  We stand by the quality of our products and guarantee your complete satisfaction.</h5>
       <button>Contact Us</button>
     </div>
     <img src="assets/family.png.jpeg" alt="" class='familypic'>
@@ -242,7 +245,9 @@ nav a {
 
 .products h4 {
   color: white;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: 'Western';
+  margin-bottom: 5px;
 }
 
 .products h5 {
@@ -250,7 +255,7 @@ nav a {
   color: #a0a1a0;
   font-size: 25px;
   text-align: left;
-  width: 75%;
+  width: 80%;
 }
 
 .prodline {
@@ -326,7 +331,8 @@ nav a {
 }
 
 .aboutUs {
-  min-height: 90vh;
+  height: auto;
+  min-height: 175vh;
   position: relative;
   padding: 20rem 0; 
 }
@@ -358,15 +364,33 @@ nav a {
   top:0;right:0;bottom:0;left:0;
   z-index: 3;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutUsContent>div {
+  height: 100%;
+  width: 100%;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin: 15px 0;
+}
+
+.aboutUsContent h2 {
+  font-size: 75px;
+  margin: 6vh 0 2vh 0;
+  color: white;
+  font-family: 'Western';
+  letter-spacing: 5px;
 }
 
 .aboutUsCard {
   background: white;
   height: 700px;
-  width: 20vw;
+  width: 25vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -375,15 +399,21 @@ nav a {
   border-radius: 3px;
 }
 
+.aboutUsCardWhistles {
+  width: 75vw;
+  height: 850px;
+}
+
 .aboutUsCard>div {
   height: 100%;
 }
 
 .aboutUsCard h3 {
-  font-size: 40px;
+  font-size: 55px;
   margin: 3vh 0 0 0;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Western';
+  /* font-family: 'Roboto', sans-serif; */
   letter-spacing: 3px;
 }
 
@@ -394,12 +424,20 @@ nav a {
   font-family: 'Roboto', sans-serif;
 }
 
+.aboutUsCardWhistles p {
+  width: 50%;
+}
+
 .prodCardLine {
   margin: 1vh 0;
   height: 5px;
   width: 60%;
   background: #3f5125;
   border-radius: 1px;
+}
+
+.aboutUsCardWhistles .prodCardLine {
+  width: 30%;
 }
 
 .cardTop {
@@ -419,6 +457,19 @@ nav a {
   flex-direction: column;
   align-items: center;
   padding-top: 5px;
+}
+
+.aboutUsCardWhistles .cardTop {
+  height: 60%;
+}
+
+.aboutUsCardWhistles .cardBottom {
+  height: 40%;
+  justify-content: center;
+}
+
+.aboutUsCardWhistles h3 {
+  margin: 0;
 }
 
 .about {
@@ -450,9 +501,10 @@ nav a {
 }
 
 .about h2 {
-  font-size: 45px;
+  font-size: 55px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Western';
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .about h5 {
@@ -506,6 +558,7 @@ nav a {
   justify-content: center;
   min-height: 50vh;
   padding: 8vh 0;
+  overflow: hidden;
 }
 
 .clients h4 {
