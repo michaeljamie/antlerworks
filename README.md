@@ -1,29 +1,9 @@
-# antlerworks
+![THE ANTLER WORKS - YOUNG HEART TEXT](https://user-images.githubusercontent.com/26236137/55743552-d65d3800-59ef-11e9-8e7c-5f3c4a264bc6.png)
 
-## Project setup
-```
-npm install
-```
+# The Antler Works
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A project for a client who makes and sells antler whistles to companies like Disney, Cabellas, The Smithsonian, and others.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Technologies Used:
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue | CSS
