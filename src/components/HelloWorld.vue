@@ -301,7 +301,7 @@ nav a {
 .prodcard2 {
   width: 50%;
   height: 100%;
-  background: #191919;
+  background: linear-gradient(to bottom, #0f0f0f, #191919 );
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -312,7 +312,7 @@ nav a {
 .prodcard3 {
   width: 50%;
   height: 100%;
-  background: #191919;
+  background: linear-gradient(to bottom, #0f0f0f, #191919 );
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -451,7 +451,7 @@ nav a {
 .cardBottom {
   width: 100%;
   height: 50%;
-  background: #191919;
+  background: linear-gradient(to bottom, #0f0f0f, #191919 );
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -582,7 +582,7 @@ nav a {
 
 .contact {
   min-height: 35vh;
-  background: #191919;
+  background: linear-gradient(to bottom, #0f0f0f, #191919 );
   color: white;
   display: flex;
   flex-direction: column;

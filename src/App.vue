@@ -6,11 +6,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+var modal = require('vue-strap').modal;
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    modal
   }
 }
 </script>
