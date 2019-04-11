@@ -4,6 +4,8 @@
 
 A project for a client who makes and sells antler whistles to companies like Disney, Cabellas, The Smithsonian, and others.
 
+![image](https://user-images.githubusercontent.com/26236137/55966133-16612c80-5c35-11e9-950c-7a97f271df5a.png)
+
 ### Technologies Used:
 
 Vue | CSS
