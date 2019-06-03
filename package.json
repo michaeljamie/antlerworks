@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "boostrap": "^2.0.0",
-    "bootstrap-vue": "^2.0.0-rc.16",
+    "bootstrap-vue": "^2.0.0-rc.22",
     "vue": "^2.5.21",
     "vue-strap": "^1.1.40"
   },
